@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - V8 Garage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="imagens/LOGOV8GARAGE.jpg" alt="V8 Garage">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="venda.html">Venda</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="login.html" class="active">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Main Login Form -->
+  <main class="login-container">
+    <h2>Bem-vindo à V8 Garage</h2>
+    <p class="tagline">Rumo em Carros</p>
+    <form action="#" method="post" class="login-form">
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+      </div>
+      <button type="submit" class="btn">Entrar</button>
+      <p class="forgot-password"><a href="#">Esqueceu a senha?</a></p>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 V8 Garage. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
